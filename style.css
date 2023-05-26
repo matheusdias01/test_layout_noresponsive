@@ -1,0 +1,109 @@
+/* Configuração geraç */
+
+body {
+  margin: 0;
+  background-color: #f2f3f4;
+}
+
+/* PART I - HEADER */
+
+header {
+  width: 100%;
+  height: 200px;
+  display: table;
+
+  /* Formatação */
+  background-color: #2f394d;
+  border-bottom: 10px solid #bcd0c7;
+}
+
+/* PART II - NAV */
+
+nav {
+  width: 100%;
+  height: auto;
+  display: table;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* Formatação */
+  background-color: #85cb33;
+  border-bottom: 10px solid #f2f3f4;
+}
+
+/* PART II.II */
+
+nav div.container-btn {
+  width: 60%;
+  height: 70px;
+  margin: 0 auto;
+  display: table;
+}
+
+/* PART II.III */
+
+div.container-btn .btn {
+  width: 30%;
+  margin: 11px;
+  padding: 15px;
+  display: inline-block;
+  box-sizing: border-box;
+
+  /* Formatação */
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #100b00;
+  background-color: #a5cbc3;
+  border-radius: 4px;
+  box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* PART III */
+
+section {
+  width: 100%;
+  height: auto;
+  display: table;
+
+  /* Formatação */
+  background-color: #f2f3f4;
+}
+
+/* PART IV */
+
+article {
+  width: 79%;
+  height: 500px;
+  display: inline-block;
+
+  /* Formatação */
+  background-color: #330036;
+}
+
+aside {
+  width: 20%;
+  height: 500px;
+  margin-left: 10px;
+  display: inline-block;
+
+  /* Formatação */
+  background-color: #153243;
+}
+
+/* PART V */
+
+footer {
+  width: 100%;
+  height: 300px;
+  display: table;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* Formatação */
+  background-color: #e1bc29;
+  border-top: 10px solid #f2f3f4;
+}
